@@ -1,0 +1,13 @@
+p#uniqueid{
+    color: rgb(94, 70, 12);
+    text-align: center;
+
+}
+section > h1{
+    background-color: peru;
+    font-size: 39px;
+}
+section div{
+    background-color: purple;
+    border: 300px;
+}

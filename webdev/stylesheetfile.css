@@ -1,0 +1,18 @@
+h2{
+    color: hotpink;
+    text-align: center;
+    border: 3px solid brown;
+    font-size:  78px;
+    background-color:rebeccapurple;
+}
+h1,div{
+    color:brown
+}
+p.pclass{
+    font-size: 30px;
+    background-color: rgb(23, 219, 56);
+    opacity: 1;
+}
+article > p{
+    color:yellow;
+}
