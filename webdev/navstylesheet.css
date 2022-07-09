@@ -13,6 +13,10 @@ div{
 }
 *{
     background-color:rgb(66 66 56);
+    background-image: url("Groot.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 button:hover{
     background-color:black;
