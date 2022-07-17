@@ -9,4 +9,8 @@ div{
     background-color: aliceblue;
     text-align: center;
     display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    align-self: flex-start;
+
 }
