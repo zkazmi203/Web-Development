@@ -1,0 +1,12 @@
+.container{
+    background-color: aqua;
+    border: none;
+}
+div{
+    border: 3px solid peru;
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+}
