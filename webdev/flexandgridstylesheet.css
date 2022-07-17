@@ -1,6 +1,7 @@
 .container{
-    background-color: aqua;
+    background-color: rgb(153, 123, 85);
     border: none;
+    height: 300px;
 }
 div{
     border: 3px solid peru;
@@ -14,18 +15,12 @@ div{
     align-self: flex-start; */
 
 }
-#A{
-    align-self: flex-start;
+div:hover{
+    background-color: peru;
+    color:rgb(233, 14, 105);
+    border-color: aliceblue;
 }
-#B{
-    align-self: center;
-}
-#C{
-
-}
-#D{
-
-}
-#E{
-
+.container:hover{
+    background-color: black;
+    
 }
