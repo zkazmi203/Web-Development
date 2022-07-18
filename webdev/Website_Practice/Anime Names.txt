@@ -59,3 +59,18 @@ Don't Toy With Me Miss Nagataro
 Spirited Away
 The Time I Got Reincarnated As A- Slime
 Akashic Record Of Bastard Magic- Instructor
+
+
+
+
+
+    <h2>Demon Slayer</h2>
+    <h2>Akame Ga Kill</h2>
+    <h2>Blue Exorcist</h2>
+    <h2>CastleVania</h2>
+    <h2>Death Note</h2>
+    <h2>The Case Study Of Vanitas</h2>
+    <h2>Vinland Saga</h2>
+    <h2>Tokyo Revengers</h2>
+    <h2>To Your Eternity</h2>
+    <h2>Jujutsu Kaisen</h2>
