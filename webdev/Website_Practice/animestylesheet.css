@@ -1,66 +1,95 @@
-header {
-    text-align: center;
-    font-weight: 900;
-    background-color: #DADFEA;
-    font-size: 65px;
-    
-    
-}
-
-
-
-
 * {
     background: linear-gradient(to right, #434343 0%, black 100%);
     color: #DADFEA;
-
-
 }
-h2{
+h2 {
     text-align: center;
 }
-p,ul,li{
-    margin: 15px;
-
+img{
+    margin: 78px;
+    height: 600px;
+    width: 600px;  
+    position: absolute;
 }
-#AOT{
-    border: 3px double #DADFEA;
-
-    animation: bounce 1.5s ease-in-out 1;
+#vanitasimage {
+    float: right;
+    animation: vanitas 1s 0.5 10;
+    box-sizing: border-box;
+    max-width: 900px;
 }
-@keyframes bounce {
-    0%{
-        transform: scale(0.2);
+#vanitasimage2 {
+    float: right;
+    animation: vanitas2 2s 1s 10;
+    box-sizing: border-box;
+    max-width: 900px;
+}
+#ekko {
+    float: right;
+    animation: ekko 3s 2s 10;
+    box-sizing: border-box;
+    max-width: 900px;
+}
+#erenandmikasa {
+    float: right;
+    animation: erenandmikasa 4s 3s 10;
+    box-sizing: border-box;
+    max-width: 900px;
+}
+#gojo{
+    float: right;
+    animation: gojo 5s 4s 10;
+    box-sizing: border-box;
+    max-width: 900px;
+}
+@keyframes vanitas {
+    0% {
+        right: 0px;
+        opacity: 1;
     }
-    50%{
-        transform: translateY(0);
+    100% {
+        right: 600px;
+        opacity: 0;
     }
-    100%{
-        transform: translateY(0);
-    }
-    
 }
-#contentaot:hover{
-    transform: scale(1.1);
-    
+@keyframes vanitas2 {
+    0% {
+        right: 0px;
+        opacity: 1;
+    }
+    100% {
+        right: 500px;
+        opacity: 0;
+    }
+}
+@keyframes ekko {
+    0% {
+        right: 0px;
+        opacity: 1;
+    }
+    100% {
+        right: 400px;
+        opacity: 0;
+    }
+}
+@keyframes erenandmikasa {
+    0% {
+        right: 0px;
+        opacity: 1;
+    }
+    100% {
+        right: 300px;
+        opacity: 0;
+    }
+}
+@keyframes gojo {
+    0% {
+        right: 0px;
+        opacity: 1;
+    }
+    100% {
+        right: 200px;
+        opacity: 0;
+    }
 }
 
-img {
-    margin: 10px;
-    padding: 10px;
-    border: 3px solid white;
-    display: grid;
-    cursor: pointer;
-}
 
-img:hover{
-    transform:scale(1.2);
-    padding: 30px;
-    
-}
-input{
-    height:25px;
-    text-align: center;
-    margin: 20px;
-    
-}
