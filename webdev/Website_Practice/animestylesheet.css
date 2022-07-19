@@ -13,31 +13,31 @@ img{
 }
 #vanitasimage {
     float: right;
-    animation: vanitas 1s 0.5 10;
+    animation: vanitas 5s 5s 1010;
     box-sizing: border-box;
     max-width: 900px;
 }
 #vanitasimage2 {
     float: right;
-    animation: vanitas2 2s 1s 10;
+    animation: vanitas2 5s 4s 110;
     box-sizing: border-box;
     max-width: 900px;
 }
 #ekko {
     float: right;
-    animation: ekko 3s 2s 10;
+    animation: ekko 5s 3s 1100;
     box-sizing: border-box;
     max-width: 900px;
 }
 #erenandmikasa {
     float: right;
-    animation: erenandmikasa 4s 3s 10;
+    animation: erenandmikasa 5s 2s 1100;
     box-sizing: border-box;
     max-width: 900px;
 }
 #gojo{
     float: right;
-    animation: gojo 5s 4s 10;
+    animation: gojo 5s 1s 1100;
     box-sizing: border-box;
     max-width: 900px;
 }
@@ -45,6 +45,9 @@ img{
     0% {
         right: 0px;
         opacity: 1;
+    }
+    50%{
+        opacity: 2;
     }
     100% {
         right: 600px;
@@ -54,7 +57,10 @@ img{
 @keyframes vanitas2 {
     0% {
         right: 0px;
-        opacity: 1;
+        opacity: 0;
+    }
+    50%{
+        opacity: 2;
     }
     100% {
         right: 500px;
@@ -64,7 +70,10 @@ img{
 @keyframes ekko {
     0% {
         right: 0px;
-        opacity: 1;
+        opacity: 0;
+    }
+    50%{
+        opacity: 2;
     }
     100% {
         right: 400px;
@@ -74,7 +83,10 @@ img{
 @keyframes erenandmikasa {
     0% {
         right: 0px;
-        opacity: 1;
+        opacity: 0;
+    }
+    50%{
+        opacity: 2;
     }
     100% {
         right: 300px;
@@ -84,8 +96,13 @@ img{
 @keyframes gojo {
     0% {
         right: 0px;
-        opacity: 1;
+        opacity: 0;
     }
+
+    50%{
+        opacity: 2;
+    }
+    
     100% {
         right: 200px;
         opacity: 0;
