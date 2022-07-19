@@ -1,0 +1,172 @@
+* {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    color: antiquewhite;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900px;   
+}
+
+nav {
+    border: 3px solid white;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+#input {
+    float: right;
+    flex-grow: 0.2;
+    caret-color: red;
+    font-size: large;
+}
+
+.buttonclass {
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    font-size: larger;
+    border-radius: 30px;
+    background: linear-gradient(45deg, blue, red);
+    color: black;
+    border: 3px solid white;
+    
+}
+h1:hover{
+    cursor: pointer;
+    background:linear-gradient(45deg, blue, red);
+    color: black;
+    border: 3px solid white;
+    
+
+}
+img{
+    position: absolute;
+    animation: animeimagesanimation 3s linear 0.5s infinite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* #eren{
+    
+    float: right;
+    box-sizing: border-box;
+    max-width: 900px;
+    animation: animeimagesanimation 3s linear 0.5s infinite;
+} */
+@keyframes animeimagesanimation {
+    0%{
+        right: 0px;
+    }
+   100%{
+        right: 1200px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @keyframes h1_animation {
+    0%{
+        right: 0px;
+        opacity: 0px;
+    }
+    100%{
+        right:200px;
+        opacity: 2px;
+    }
+    
+} */
+/* img{
+    margin:15px;
+    padding: 15px;
+    border: 3px solid black;
+    height: 500px;
+    width: 550px;
+    float: right; 
+    position: absolute;
+    box-sizing: border-box;
+    max-width: 750px;  
+    animation: image_animation 3s ease-in-out 1s 3;
+    
+} */
+/* @keyframes image_animation {
+    0%{
+        right:0px;
+    }
+    100%{
+        right:780px;
+    }
+    
+} */
