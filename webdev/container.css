@@ -1,0 +1,51 @@
+.stylecss {
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+@media (max-width:575px) {
+    .stylecss {
+        background-color: blue;
+        color: aliceblue;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .stylecss {
+        background-color: red;
+        color: aliceblue;
+    }
+}
+
+.con {
+    height: 150vh;
+    background-color: brown;
+    border: 1px double black;
+}
+.flex-con {
+    height: 460px;
+    background-color: brown;
+    border: 1px double black;
+}
+
+
+.green {
+    border: 2px solid black;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.blue {
+    border: 2px solid black;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.rowheight{
+    background-color: rgb(123, 198, 221);
+    height: 150px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
