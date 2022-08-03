@@ -1,0 +1,15 @@
+body {
+    background: url(rolex.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hero {
+    letter-spacing: 0.5rem;
+    line-height: 1.2em;
+    font-weight: 250;
+}
+
+.imgrolex {
+    height: 100px;
+    width: 200px;
+}
