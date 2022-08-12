@@ -1,0 +1,17 @@
+body{
+    background: url("laptop.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover ;
+    background-size: cover;
+}
+h3{
+    color: black;
+    font-weight: 900;
+}
+.rowheight{
+    height:500px;
+}
+.footer{
+    background-color: rgb(129, 123, 123);
+    bottom: 0;
+   
+}
